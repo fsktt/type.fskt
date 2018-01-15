@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+
+body {
+	background-color: rgba(17, 17, 22, 1);
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	color: rgba(238, 238, 233, 1);
+}
+
+img.logo {
+	width: 177px;
+	height: 75px;
+	pointer-events: none;
+}
+
+section.all {
+	padding: 50px;
+}
+
+header {
+	width: 100%;
+	height: 75px;
+	margin-bottom: 30px;
+}
+
+section.type {
+	width: 48%;
+	height: 263px;
+	margin-right: 2%;
+}
+
+section.type div.words {
+	width: 100%;
+	height: 200px;
+	background-color: rgba(238, 238, 233, .3);
+	border: 1px solid rgba(238, 238, 233, 1);
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+section.type div.words span {
+	margin-right: 3px;
+	font-size: 20px;
+}
+
+span.sword {
+	font-weight: 700;
+	background-color: rgba(17, 17, 22, .75);
+}
+
+input.main {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(238, 238, 233, .3);
+	outline: none;
+	border: 1px solid rgba(238, 238, 233, 1);
+	border-radius: 3px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	color: rgba(238, 238, 233, 1);
+	padding: 10px;
+	font-weight: 700;
+}
+
+div.container {
+	padding: 15px;
+}
+
+section.more {
+	background-color: white;
+	float: right;
+	width: 48%;
+	margin-top: -263px;
+}
+
+div.stats {
+	width: 100%;
+	height: 263px;
+	
+}
